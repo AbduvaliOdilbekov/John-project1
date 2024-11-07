@@ -1,0 +1,149 @@
+.center {
+    max-width: 800px;
+    width: 100%;
+    // border: 2px solid orange;
+    margin: auto;
+
+    &__h1 {
+        font-family: SemiBold, sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        text-align: left;
+
+        color: rgba(33, 36, 61, 1);
+    }
+    
+    &__text {
+        width: 400px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__year {
+        width: 62px;
+        height: 25px;
+        top: 280px;
+        left: 239px;
+        gap: 0px;
+        border-radius: 16px;
+        opacity: 0px;
+
+        background: rgba(255, 124, 124, 1);
+    }
+
+    &__p {
+        font-family: SemiBold, sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: left;
+
+        margin-left: 10px;
+        padding-top: 4px;
+        color: #fff;
+    }
+
+    &__p2 {
+        font-family: Light, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: left;
+        color: rgba(33, 36, 61, 1);
+    }
+
+    &__p3 {
+        font-family: Light, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.5px;
+        text-align: left;
+
+        margin-top: 23px;
+    }
+
+    &__img {
+        width: 681px;
+        height: 460px;
+
+        margin-top: 35px;
+    }
+
+    &__h21 {
+        font-family: SemiBold, sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 60px;
+        text-align: left;
+
+        color: rgba(33, 36, 61, 1);
+        margin-top: 51px;
+    }
+    
+    &__h2 {
+        font-family: SemiBold, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 60px;
+        text-align: left;
+        color: rgba(33, 36, 61, 1);
+
+        
+    }
+
+    @media only screen and (max-width: 720px) {
+        &__img {
+            width: 640px;
+            height: 420px;
+    
+            // margin-top: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 675px) {
+        &__h1 {
+            font-size: 30px;
+        }
+        
+        &__h21 {
+            font-size: 28px;
+        }
+
+        &__p3 {
+            font-size: 12px;
+        }
+
+        &__img {
+            width: 600px;
+            height: 380px;
+    
+            // margin-top: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 635px) {
+        &__img {
+            width: 550px;
+            height: 330px;
+    
+            // margin-top: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 585px) {
+        &__img {
+            width: 500px;
+            height: 300px;
+    
+            // margin-top: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 585px) {
+        &__img {
+            width: 400px;
+            height: 250px;
+    
+            // margin-top: 35px;
+        }
+    }
+}

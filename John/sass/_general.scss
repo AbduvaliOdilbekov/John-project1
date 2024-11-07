@@ -1,0 +1,24 @@
+html {
+  height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
